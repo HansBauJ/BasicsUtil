@@ -1,21 +1,9 @@
-import servicios.select;
-
-
-import java.util.Scanner;
+import servicios.Select;
 
 class principal {
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
         System.out.println("Please chose an option:\n1.-Basic calculator.\n2.-Encoder\n3.-Student average calculator.\n");
-        select.selectd();
+        //Select.selectd();//issue here
     }
-
-
-
-
-
-
-
-
-
 }
